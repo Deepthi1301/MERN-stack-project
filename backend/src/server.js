@@ -15,7 +15,7 @@ app.use('/API/users', userRoute)
 app.use('/API/quizzes', quizzesRoute)
 
 app.use('*', (req, res) => {
-	res.sendFile(path.join(__dirname, '/public/index.html'))
+	res.sendFile(path.join(__dirname, '../../frontend/public/index.html'))
 })
 // Listening to APIs
 app.listen(process.env.PORT || 8000, () =>
