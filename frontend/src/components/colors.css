@@ -1,0 +1,21 @@
+:root {
+  --dark-shadow: #29455a;
+  --light-shadow: #b5c2c2;
+  --primary: #ffffff;
+  --secondary: #06425c;
+  --accent-pink: #627db5;
+  --accent-mustard: #f7c550;
+  --gradient: linear-gradient(
+    to right,
+    var(--secondary) -10%,
+    var(--accent-pink) 10%,
+    var(--accent-mustard) 100%
+  );
+  --glass-gradient: linear-gradient(
+    to right bottom,
+    /* rgba(257, 257, 257, 0.3), */
+    rgba(11, 26, 50, 0.2),
+    rgba(82, 7, 32, 0.2),
+    rgba(78, 56, 6, 0.2)
+  );
+}
